@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/user")
 public class UserController {
 
-    @RequestMapping(value = "/getUser")
+    @RequestMapping(value = "/getuser")
     public User getUserInfo(){
         User user = new User();
         user.setUserName("快递小哥");
